@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Sep 26 11:18:30 2019
+# Process ID: 12280
+# Current directory: C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12012 C:\Users\bfwan\Brandon.Fong\COLLEGE\19-20\Fall 19\CompE 475\ASS_1\SingleCycle\SingleCycle.xpr
+# Log file: C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle/vivado.log
+# Journal file: C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle/SingleCycle.xpr}
+launch_simulation
+source testbench0.tcl
+restart
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+close_sim
+launch_simulation
+source testbench0.tcl
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source testbench0.tcl
+close_sim
+launch_simulation
+source testbench0.tcl
+close_sim

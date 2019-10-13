@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Sep 21 08:49:25 2019
+# Process ID: 12300
+# Current directory: C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1504 C:\Users\bfwan\Brandon.Fong\COLLEGE\19-20\Fall 19\CompE 475\ASS_1\SingleCycle\SingleCycle.xpr
+# Log file: C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle/vivado.log
+# Journal file: C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/bfwan/Brandon.Fong/COLLEGE/19-20/Fall 19/CompE 475/ASS_1/SingleCycle/SingleCycle.xpr}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testbench0 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode None [current_project]
+launch_simulation
+source testbench0.tcl
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source testbench0.tcl
+add_force {/testbench0/clk} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+add_force {/testbench0/clk} -radix hex {0 0ns} {1 5000ps} -repeat_every 10000ps
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source testbench0.tcl
+run 10 ns
+restart
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
