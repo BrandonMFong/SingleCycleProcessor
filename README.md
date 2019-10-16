@@ -5,4 +5,5 @@ The single-cycle processor microarchitecture executes one instruction per clock 
 
 My HDL code utilizes parametric modules, such as multiplexers, program counter, adders, instruction memory, control unit, register file in the read-first mode, arithmetic logic unit (ALU), sign extension unit, and data memory. 
 
-This design supports MIPS programming language. 
+This design supports MIPS assembly language, however is not word addressable.  This architecture is byte addressable (i.e. the program counter is incremented by one, not 4).  
+ 
