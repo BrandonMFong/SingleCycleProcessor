@@ -3,12 +3,12 @@ Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx.1/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 773ddc51d6a342b1b13d48699cd327cf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench0_behav xil_defaultlib.testbench0 xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 26 for port 'JUMP' [B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycle/SingleCycle.srcs/sources_1/new/top_module.v:225]
-WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'IMMED' [B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycle/SingleCycle.srcs/sources_1/new/top_module.v:394]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 26 for port 'JUMP' [B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycleProcessor/SingleCycle/SingleCycle.srcs/sources_1/new/top_module.v:225]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 17 for port 'IMMED' [B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycleProcessor/SingleCycle/SingleCycle.srcs/sources_1/new/top_module.v:394]
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-3980] File "B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycle/SingleCycle.srcs/sources_1/new/instruction_memory.v" Line 64 : The SystemVerilog feature ": Sensitivity on Associative Array" is not supported yet for simulation.
-WARNING: [XSIM 43-3980] File "B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycle/SingleCycle.srcs/sources_1/new/data_memory.v" Line 63 : The SystemVerilog feature ": Sensitivity on Associative Array" is not supported yet for simulation.
+WARNING: [XSIM 43-3980] File "B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycleProcessor/SingleCycle/SingleCycle.srcs/sources_1/new/instruction_memory.v" Line 64 : The SystemVerilog feature ": Sensitivity on Associative Array" is not supported yet for simulation.
+WARNING: [XSIM 43-3980] File "B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycleProcessor/SingleCycle/SingleCycle.srcs/sources_1/new/data_memory.v" Line 63 : The SystemVerilog feature ": Sensitivity on Associative Array" is not supported yet for simulation.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.control_unit

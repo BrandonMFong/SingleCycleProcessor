@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycle/SingleCycle.xpr">
+<Project Version="7" Minor="39" Path="B:/COLLEGE/19_20/Fall_19/Compe_475/ASS_1/SingleCycleProcessor/SingleCycle/SingleCycle.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="773ddc51d6a342b1b13d48699cd327cf"/>
@@ -32,7 +32,7 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="76"/>
+    <Option Name="WTXSimLaunchSim" Val="77"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
